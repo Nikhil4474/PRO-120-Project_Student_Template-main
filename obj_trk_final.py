@@ -16,7 +16,7 @@ tracker = cv2.TrackerCSRT_create()
 #read the first frame of the video
 success,img = video.read()
 
-#selct the bounding box on the image
+#select the bounding box on the image
 bbox = cv2.selectROI("tracking",img,False)
 
 #initialise the tracker on the img and the bounding box
